@@ -14,7 +14,9 @@ MATLAB and Mathematica code for reproducing the results found in _link to paper_
 1. Scripts labelled 'CVX' require CVX and an SDP solver
 2. Scripts labelled 'YALMIP' require YALMIP and an SDP solver
 3. Scripts labelled 'verify_lin_eq' require MATLAB's symbolic computation toolbox
+
 Each script can be executed independently.
 
-## Additional comment:
-While the optimal contraction factors given by CVX and YALMIP are the same, the SOS multipliers need not be, as the SOS decomposition may not be unique. The results given in the paper correspond to the SOS multipliers given by CVX, not YALMIP.
+## Additional comments:
+- While the optimal contraction factors given by CVX and YALMIP are the same, the SOS multipliers need not be, as the SOS decomposition may not be unique. The results given in the paper correspond to the SOS multipliers given by CVX, not YALMIP.
+- The optimal Q's for all three algorithms are sparse, with only a submatrix within each Q being non-empty. The Mathematica code directly checks for the PSD-ness of the submatrix, instead of the full Q.
