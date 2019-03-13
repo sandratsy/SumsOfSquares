@@ -1,5 +1,8 @@
 # SumsOfSquares
-MATLAB and Mathematica code for reproducing the results found in _link to paper_, as well as the supplementary material the paper references to
+MATLAB and Mathematica code for reproducing the results found in the following paper, as well as the supplementary material the paper references to
+```
+A Unified Framework for the Convergence Analysis of Optimization Algorithms via Sum-of-Squares
+```
   
 ## This repository contains code to:
 - Numerically verify the optimal contraction factors for three algorithms using CVX
