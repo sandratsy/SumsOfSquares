@@ -3,7 +3,7 @@
 ```
 A Unified Framework for the Convergence Analysis of Optimization Algorithms via Sum-of-Squares
 ```
-- The 'arXiv' folder contains MATLAB and Mathematica code for reproducing the results found in the following paper
+- The 'arXiv' folder contains MATLAB and Mathematica code for reproducing the results found in the following paper:
 ```
 Analysis of Optimization Algorithms via Sums-of-Squares
 ```
