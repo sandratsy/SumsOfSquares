@@ -19,6 +19,3 @@ Analysis of Optimization Algorithms via Sums-of-Squares
 3. Scripts labelled 'verify' require MATLAB's symbolic computation toolbox
 
 Each script can be executed independently.
-
-## Additional comments:
-- The optimal Q's for all five algorithms are sparse, with only a submatrix within each Q being non-empty. The Mathematica code directly checks for the PSD-ness of the submatrix, instead of the full Q.
